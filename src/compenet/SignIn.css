@@ -1,0 +1,39 @@
+.login-bg {
+  background: linear-gradient(135deg, #e6d9ff, #f5f0ff);
+}
+
+.login-card {
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(138, 99, 255, 0.2);
+  padding: 10px;
+}
+
+.login-title {
+  color: #6f42c1;
+  font-weight: 700;
+}
+
+.login-input {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.login-input:focus {
+  border-color: #b197fc;
+  box-shadow: 0 0 0 0.2rem rgba(177, 151, 252, 0.25);
+}
+
+.login-btn {
+  background: linear-gradient(135deg, #9b7cff, #c3b1ff);
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(135deg, #8a63ff, #b197fc);
+  transform: translateY(-2px);
+}
